@@ -14,7 +14,7 @@ directory=$1
 
 echo -e "\n 📥 Cloning the React boilerplate from Gitlab\n"
 
-git clone git@gitlab.com\:vzhny\/react-webpack-4-boilerplate.git $directory && \
+git clone git@github.com\:vzhny\/react-webpack-4-boilerplate.git $directory && \
 
 echo -e "\n 🧹 Removing the git repo and initializing a brand new one\n"
 
