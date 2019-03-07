@@ -12,11 +12,11 @@ fi
 directory=$1
 
 
-echo -e "\n 📥 Cloning the React boilerplate from Gitlab\n"
+echo -e "\n 📥 Cloning react-boiler from Github..\n"
 
-git clone git@github.com\:vzhny\/react-webpack-4-boilerplate.git $directory && \
+git clone git@github.com\:vzhny\/react-boiler.git $directory && \
 
-echo -e "\n 🧹 Removing the git repo and initializing a brand new one\n"
+echo -e "\n 🧹 Removing the git repo and initializing a brand new one..\n"
 
 cd $directory && \
 rm -rf .git && \
@@ -27,11 +27,10 @@ echo -e "\n 🚀 Executing 'yarn install'\n"
 
 yarn install && \
 
-echo -e "\n Change into the project's directory using\n"
-echo -e "\t${GREEN}cd $directory${NC}"
-echo -e "\n 📝 And execute the following:\n"
+echo -e "\n Now, change into the project's directory using ${GREEN}cd $directory${NC}!\n"
+echo -e " 📝 Then, execute the following:\n"
 echo -e "\t${GREEN}yarn run dev${NC}\n" 
 echo -e " to launch the app for development.\n"
 echo -e "\t${GREEN}yarn run build${NC}\n"
 echo -e " to build the app for production.\n" 
-echo -e " Remember to update ${RED}package.json${NC} for the current project!\n"
+echo -e " Remember to update ${RED}package.json${NC} and ${RED}readme.md${NC} for the current project. Happy coding!"
