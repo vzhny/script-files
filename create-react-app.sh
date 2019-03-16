@@ -23,7 +23,7 @@ rm -rf .git && \
 git init && \
 rm yarn.lock && \
 
-echo -e "\n 🚀 Executing 'yarn install'\n"
+echo -e "\n 🚀 Executing 'yarn install..'\n"
 
 yarn install && \
 
