@@ -3,7 +3,7 @@
 echo -e "\n 👉  Select your emoji from the following list:\n"
 echo -e "\t 🎉  (i)nitial"
 echo -e "\t 📝  (n)ew"
-echo -e "\t 🔧  (r)efactor"
+echo -e "\t ♻  (r)efactor"
 echo -e "\t 🔥  (d)elete"
 echo -e "\t 🚚  (m)ove"
 echo -e "\t 📖  d(o)c"
@@ -20,7 +20,7 @@ read -p "Selection: " emoji_selection
 case $emoji_selection in
   i ) emoji=🎉;;
   n ) emoji=📝;;
-  r ) emoji=🔧;;
+  r ) emoji=♻;;
   d ) emoji=🔥;;
   m ) emoji=🚚;;
   o ) emoji=📖;;
