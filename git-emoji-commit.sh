@@ -20,17 +20,17 @@ echo -e "\n"
 read -p "Selection: " emoji_selection
 
 case $emoji_selection in
-  i ) emoji=🎉;;
-  n ) emoji=📝;;
-  r ) emoji=🔨;;
-  s ) emoji=🎨;;
-  d ) emoji=🔥;;
-  m ) emoji=🚚;;
-  o ) emoji=📖;;
-  b ) emoji=🐛;;
-  a ) emoji=➕;;
-  e ) emoji=➖;;
-  t ) emoji=👷;;
+  i|I ) emoji=🎉;;
+  n|N ) emoji=📝;;
+  r|R ) emoji=🔨;;
+  s|S ) emoji=🎨;;
+  d|D ) emoji=🔥;;
+  m|M ) emoji=🚚;;
+  o|O ) emoji=📖;;
+  b|B ) emoji=🐛;;
+  a|A ) emoji=➕;;
+  e|E ) emoji=➖;;
+  t|T ) emoji=👷;;
   * ) 
     echo -e "$emoji No valid emoji was selected. Exiting."
     exit 1
