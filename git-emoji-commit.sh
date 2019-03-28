@@ -1,17 +1,17 @@
 #!/bin/bash
 
 echo -e "\n 👉  Select your emoji from the following list:\n"
-echo -e "\t 🎉  (i)nitial"
-echo -e "\t 📝  (n)ew"
-echo -e "\t 🔨  (r)efactor"
-echo -e "\t 🎨  (s)tyles"
-echo -e "\t 🔥  (d)elete"
-echo -e "\t 🚚  (m)ove"
-echo -e "\t 📖  d(o)c"
-echo -e "\t 🐛  (b)ugfix"
-echo -e "\t ➕  (a)dd"
-echo -e "\t ➖  r(e)move"
-echo -e "\t 👷  (t)ests"
+echo -e "\t 🎉  (i)nitial commit"
+echo -e "\t 📝  (n)ew code added"
+echo -e "\t 🔨  (r)efactored code"
+echo -e "\t 🎨  (s)tyles added/edited"
+echo -e "\t 🔥  (d)elete code/files"
+echo -e "\t 🚚  (m)ove code/files"
+echo -e "\t 📖  d(o)cs updated/added"
+echo -e "\t 🐛  (b)ugfix implemented"
+echo -e "\t ➕  (a)dd dependency"
+echo -e "\t ➖  r(e)move dependency"
+echo -e "\t 🚧  (t)ests added"
 
 emoji=😮
 
@@ -30,7 +30,7 @@ case $emoji_selection in
   b|B ) emoji=🐛;;
   a|A ) emoji=➕;;
   e|E ) emoji=➖;;
-  t|T ) emoji=👷;;
+  t|T ) emoji=🚧;;
   * ) 
     echo -e "$emoji No valid emoji was selected. Exiting."
     exit 1
